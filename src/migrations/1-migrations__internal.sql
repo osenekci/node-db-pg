@@ -4,5 +4,3 @@ CREATE TABLE db_migrations (
     ts_created bigint NOT NULL,
     ts_updated bigint NOT NULL
 );
-
-ALTER TABLE db_migrations OWNER TO as_user;
